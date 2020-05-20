@@ -13,7 +13,7 @@ namespace EFCollations
                 db.Database.EnsureDeleted();
                 db.Database.EnsureCreated();
             }
-            
+
             using (var context = new CustomerContext())
             {
                 #region SimpleQueryCollation
